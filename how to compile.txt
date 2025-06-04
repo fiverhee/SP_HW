@@ -1,0 +1,4 @@
+server: gcc server.c octaflip_server.c cJSON.c -o server
+(server port number : 12345)
+
+client: gc client.c octaflip_client.c movement_generator.c cJSON.c -o client
